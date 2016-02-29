@@ -1,0 +1,14 @@
+todos.txt
+
+- Scraper
+	- Catalog stories into folders by author name
+		- format: '%s\n...'%(url,title,author,date,time)
+		- then blank space, then '%s\n'%p for each paragraph
+- Shell
+	- get new stories
+	- search new/all stories: match title/author/content(/date)
+- NLP/ML
+	- author classifier (who wrote this?)
+		- later, be able to classify prose with most likely Wired author
+	- genre/category classifier
+	- gisting
