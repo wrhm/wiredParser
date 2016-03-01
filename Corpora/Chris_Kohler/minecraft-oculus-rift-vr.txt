@@ -1,0 +1,13 @@
+http://www.wired.com/2016/03/minecraft-oculus-rift-vr/
+<em>Minecraft
+Chris Kohler
+March 1, 2016
+9:00 am
+When you're so absorbed in your VR headset that Mark Zuckerberg walks by you unnoticed, what will you be playing? Probably <em>Minecraft</em>.
+Microsoft has already announced that the Windows 10 version of one of the world's most popular (and most pixelated) games will support Oculus, but at an event last week in San Francisco, I got to pop on a Rift and actually play <em>Minecraft</em> in VR. First impression: Holy crap, kids are going to <em>flip</em> over this. It's one thing to build a giant mountain out of low-res blocks; it's quite another to stare upward and see your massive creation towering over you.
+Later, I rode a mine cart up a hill, experiencing the building sense of anticipation you might get climbing the first big hill in a roller coaster. I fired cannons from high atop the hill. I walked across a bridge made of glass and looked down at the dizzying drop below. I dropped down into a dungeon, where I lit torches to feel my way through the blindness. It's everything you love about <em>Minecraft</em>, but now you're living it.
+And you're living it, as Oculus founder Palmer Luckey hastens to add, along with your friends and relations.
+"It makes it feel like you're actually inside of the world of <em>Minecraft</em>," Luckey says, "and not just the stock <em>Minecraft</em> world, but all of these servers that you can join where you hang out with people. It is in some ways the closest thing that we have to a Metaverse."
+ is the Metaverse? Of course it is. The future is virtual, and blocky. But it's also not for the little ones. "For a variety of reasons, we're limiting the Rift for use by people who are over the age of 13," Luckey said. With <em>Minecraft</em> goods lining shelves on Toys &#8216;R' Us, that would seem to be something of a contradiction in terms, but Luckey points out that the average age of a <em>Minecraft</em> player is actually 29.
+"There is a perception of people &#8230; that <em>Minecraft</em> is just for kids, because I think everyone has that nephew or knows that kid who's 10 years old and plays <em>Minecraft</em> all day," he says. "But if you actually look at the player base, it's mostly not children."
+Developers at Microsoft did a lot of work, Luckey says, on the game to get it running well in virtual reality, from redesigning the user interface to tweaking the game's performance so it runs well even given the higher performance load of VR. "It's more fun to look at things," says Luckey of the experience, "but it's fundamentally still the same game."

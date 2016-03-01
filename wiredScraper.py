@@ -97,5 +97,4 @@ for storyLink in getHomepageStoryLinks():
 		print 'Stored \"%s...\"'%(filename[:10])
 	else:
 		print '\"%s...\" already stored.'%(filename[:10])
-	count = count + 1
 
