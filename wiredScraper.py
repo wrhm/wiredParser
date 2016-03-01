@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# from bs4 import BeautifulSoup
 import urllib, re, os
 
 url = 'http://www.wired.com/'
@@ -68,8 +67,8 @@ def getStoryInfo(storyurl):
 # storyurl = 'http://www.wired.com/2016/02/forcing-apple-hack-iphone-sets-dangerous-precedent/'
 # storyurl = 'http://www.wired.com/2016/02/know-spoons-splash-faucets-mit-made-art/'
 
-for story in getHomepageStoryLinks():
-	gsi = getStoryInfo(story)
+for storyLink in getHomepageStoryLinks():
+	gsi = getStoryInfo(storyLink)
 	isValid = (gsi['storyTitle'] != '[Need to improve title parsing]')
 	if isValid: 			# Temporary; hope that fixing getStoryInfo
 		for e in gsi: 		# will make this unnecessary
