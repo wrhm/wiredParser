@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # from bs4 import BeautifulSoup
-import urllib, re
+import urllib, re, os
 
 url = 'http://www.wired.com/'
 
@@ -63,26 +63,40 @@ def getStoryInfo(storyurl):
 	storyInfo['paragraphs'] = paragraphs
 	return storyInfo
 
+
 # storyurl = 'http://www.wired.com/2016/02/space-photos-week-milky-way-gets-close/'
 # storyurl = 'http://www.wired.com/2016/02/forcing-apple-hack-iphone-sets-dangerous-precedent/'
 # storyurl = 'http://www.wired.com/2016/02/know-spoons-splash-faucets-mit-made-art/'
-# gsi = getStoryInfo(storyurl)
-# # for e in gsi:
-# # 	print '%s: %s'%(e,gsi[e])
-# title = gsi['storyTitle']
-# author = gsi['authorName']
-# date = gsi['storyDate']
-# time = gsi['storyTime']
-# print '\"%s\" by %s on %s at %s:\n'%(title,author,date,time)
-# for e in gsi['paragraphs']:
-# 	print '%s\n'%e
 
-''' GOAL: Print titles of all stories on the homepage '''
 for story in getHomepageStoryLinks():
-	# print getStoryInfo(story)['storyTitle']
 	gsi = getStoryInfo(story)
-	for e in gsi:
-		# if gsi[e] != None:
-		if e in ['storyURL','storyTitle']:
-			print e, gsi[e]
-	print ''
+	isValid = (gsi['storyTitle'] != '[Need to improve title parsing]')
+	if isValid: 			# Temporary; hope that fixing getStoryInfo
+		for e in gsi: 		# will make this unnecessary
+			if gsi[e] == None:
+				isValid = False
+	if not isValid:
+		continue
+	url = gsi['storyURL']
+	title = gsi['storyTitle']
+	author = gsi['authorName']
+	date = gsi['storyDate']
+	time = gsi['storyTime']
+	paragraphs = gsi['paragraphs']
+	folder = '_'.join(author.split())
+	filename = url.split('/')[-2]+'.txt'
+	if folder not in os.listdir('Corpora'):
+		os.mkdir('Corpora/%s'%folder)
+		print 'Created folder \"%s\"'%folder
+	if filename not in os.listdir('Corpora/%s'%folder):
+		print 'Storing \"%s...\"'%(filename[:10])
+		f = open('Corpora/%s/%s'%(folder,filename),'w')
+		f.write('%s\n%s\n%s\n%s\n%s\n'%(url,title,author,date,time))
+		for p in paragraphs:
+			f.write('%s\n'%p)
+		f.close()
+		print 'Stored \"%s...\"'%(filename[:10])
+	else:
+		print '\"%s...\" already stored.'%(filename[:10])
+	count = count + 1
+

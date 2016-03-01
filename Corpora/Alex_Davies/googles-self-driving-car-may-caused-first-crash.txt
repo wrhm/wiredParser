@@ -1,0 +1,15 @@
+http://www.wired.com/2016/02/googles-self-driving-car-may-caused-first-crash/
+Google's Self-Driving Car Caused Its First Crash
+Alex Davies
+February 29, 2016
+2:04 pm
+Google's self-driving car caused its first crash on February 14, when it changed lanes and put itself in the path of an oncoming bus. 
+In an accident report filed with the California DMV on February 23 (and made public today), Google wrote that its autonomous car, a Lexus SUV, was driving itself down El Camino Real in Mountain View. It moved to the far right lane to make a right turn onto Castro Street, but stopped when it detected sand bags sitting around a storm drain and blocking its path. It was the move to get around the sand bags that caused the trouble, according to the report:
+"After a few cars had passed, the Google AV began to proceed back into the center of the lane to pass the sand bags. A public transit bus was approaching from behind. The Google AV test driver saw the bus approaching in the left side mirror but believed the bus would stop or slow to allow the Google AV to continue. Approximately three seconds later, as the Google AV was reentering the center of the lane it made contact with the side of the bus." 
+Google's car was in autonomous mode and driving at 2 mph at the time of the crash. The bus was driving at about 15 mph, per the report. No injuries were reported, but the front left wheel and fender of Google's car were damaged. 
+<div class="cne-video marg-t-50 marg-b-50"><script async src="//player.cnevids.com/embedjs/5176e86968f9da6db1000025/video/560d8f3761646d4c66000008.js?autoplay=0&muted=0"></script></div>
+In its monthly report, also issued this morning, Google addressed the crash, saying "In this case, we clearly bear some responsibility, because if our car hadn’t moved there wouldn’t have been a collision."
+Google did not immediately reply to a request for comment, and its report did not address the question of fault. The California DMV says it "is not responsible for determining fault," though its website notes that "last minute [lane] changes may cause collisions," and that drivers should "be sure there is enough room for your vehicle in the next lane" before moving over.
+This was a minor crash with serious implications: Google's autonomous vehicles have been in accidents before, but the tech giant was always quick to note that its technology was never at fault (the cars tend to get rear-ended at red lights). It may not be able to say that anymore. 
+Google’s cars have driven more than 1.3 million miles since 2009. They can recognize hand signals from traffic officers and “think” at speeds no human can match. As of January, they had been involved in 17 crashes, all caused by human error. Google has previously predicted they’ll be road-ready by 2020.
+Google's goal is to make a car that drives much better than humans do, program director Chris Urmson said in January, but perfection isn't attainable. “You need to be very thoughtful in doing this, but you don’t want the perfect to be the enemy of the good,” he said. “We need to make sure we can get that out in the world in a timely fashion.”
