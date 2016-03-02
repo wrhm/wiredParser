@@ -1,4 +1,12 @@
+# wiredScraper.py
+# Author: wrhm
+# Date Created: 29 Feb 2016
+#    Last Edit: 01 Mar 2016
+
 # -*- coding: utf-8 -*-
+
+# TODO: figure out why cleanUp isn't being properly called
+# (The calls to re.sub work fine in tests.)
 
 import urllib, re, os
 
@@ -17,7 +25,14 @@ def getHomepageStoryLinks():
 	return homepageLinks
 
 def cleanUp(par):
+	# valids = ''.join([chr(x) for x in xrange(32,127)])
+	# modpar = ''.join([x for x in par if x in valids])
 	modpar = re.sub('<a href.+>(.+)</a>',r'\1',par)
+	modpar = re.sub('<em>(.+)</em>',r'\1',par)
+	modpar = re.sub('<strong>(.+)</strong>',r'\1',par)
+	modpar = re.sub('<div.+>(.+)</div>',r'\1',par)
+	modpar = re.sub('<iframe.+>.+</iframe>','',par)
+	modpar = re.sub('<img.+>.+</img>','',par)
 	modpar = re.sub('&#8212;',' -- ',modpar) #Long dash
 	modpar = re.sub('&#8217;','\'',modpar) #Apostrophe
 	modpar = re.sub('&#8220;','\"',modpar) #Open quote
@@ -66,6 +81,7 @@ def getStoryInfo(storyurl):
 # storyurl = 'http://www.wired.com/2016/02/space-photos-week-milky-way-gets-close/'
 # storyurl = 'http://www.wired.com/2016/02/forcing-apple-hack-iphone-sets-dangerous-precedent/'
 # storyurl = 'http://www.wired.com/2016/02/know-spoons-splash-faucets-mit-made-art/'
+# storyurl = 'http://www.wired.com/2016/03/bugatti-crafted-chiron-worlds-last-truly-great-car/'
 
 for storyLink in getHomepageStoryLinks():
 	gsi = getStoryInfo(storyLink)
@@ -92,9 +108,11 @@ for storyLink in getHomepageStoryLinks():
 		f = open('Corpora/%s/%s'%(folder,filename),'w')
 		f.write('%s\n%s\n%s\n%s\n%s\n'%(url,title,author,date,time))
 		for p in paragraphs:
-			f.write('%s\n'%p)
+			print cleanUp(p)
+			f.write('%s\n'%cleanUp(p))
 		f.close()
 		print 'Stored \"%s...\"'%(filename[:10])
 	else:
 		print '\"%s...\" already stored.'%(filename[:10])
 
+# print cleanUp('<a href blah>foobar</a>')

@@ -1,0 +1,11 @@
+http://www.wired.com/2016/03/ps4-streaming-pc/
+You'll Soon Be Able to Stream PlayStation 4 Games to a PC
+Jake Muncy
+March 1, 2016
+6:04 pm
+PlayStation 4 owners will soon be able to stream their games to the PC, Sony said on Tuesday.
+The feature will come as part of the console's 3.50 firmware update, aspects of which are being prepared for beta testing by select PlayStation users "soon." The update will also include revised social features, such as the ability to appear offline to your friends (handy for the shameful hours and hours you spend playing <em>Disney Infinity</em> when the kids aren't home). 
+There's no word on the release window for 3.50, which has the delightful codename "Musashi," but if history is any indication, it won't be long after the beta ends. 
+The streaming feature, dubbed Remote Play, allows PlayStation 4 owners to stream gameplay to select devices over their home internet connection. Up until now, the service has been locked to PlayStation Vita, the <a href="http://www.gamespot.com/articles/playstation-tv-discontinued-in-the-us-europe/1100-6435193/">recently discontinued</a> PlayStation TV microconsole, and certain lines of Sony phones. 
+Last year, a hacker named Twisted <a href="http://www.engadget.com/2015/11/24/ps4-to-pc-remote-play/">brought the feature to the PC</a>, after which Sony mentioned that it was working on its own version of the technology. Microsoft's Xbox One already has the ability to stream its gameplay to Windows 10 PCs over a home network.
+It's unclear how the implementation will look on the PC, or how high-fidelity the streams will be. In the present Vita iteration, as well as the hacked PC version based on it, framerates tend to stutter and drop, making the streaming more suitable for slower, more methodical experiences than for twitchy, action-heavy ones.

@@ -1,3 +1,8 @@
+# tokenize.py
+# Author: wrhm
+# Date Created: 29 Feb 2016
+#    Last Edit: 01 Mar 2016
+
 import os, string
 
 # regex = '[A-Za-z]+'

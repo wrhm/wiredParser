@@ -2,5 +2,6 @@ references.txt
 
 - http://stackoverflow.com/questions/8897593/similarity-between-two-text-documents
 - https://docs.python.org/2/library/os.html
+- https://docs.python.org/2/library/string.html
 - ../InformationRetrieval.pdf
 - ../auth_attr.pdf
