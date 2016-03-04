@@ -4,6 +4,7 @@ todos.txt
 	- Catalog stories into folders by author name
 		- format: '%s\n...'%(url,title,author,date,time)
 		- then blank space, then '%s\n'%p for each paragraph
+	- Compile a catalog of all urls successfully scraped
 - Shell
 	- get new stories
 	- search new/all stories: match title/author/content(/date)
