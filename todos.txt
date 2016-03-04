@@ -13,3 +13,6 @@ todos.txt
 		- later, be able to classify prose with most likely Wired author
 	- genre/category classifier
 	- gisting
+
+Indentation theory of summarization
+	- if someone were to make a bulleted outline of a text, the highest n levels bullets should constitute a variably-condensed summary

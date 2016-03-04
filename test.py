@@ -2,6 +2,19 @@
 
 import re
 
+# -*- coding: utf-8 -*-
+
+from bs4 import BeautifulSoup
+f = open('mmt.html','r')
+html = f.read()
+f.close()
+soup = BeautifulSoup(html,'html.parser')
+# print soup.prettify()
+for p in soup.find_all('p'):
+	for elem in p.contents:
+		print '%s\n'%str(elem)
+	print '='*50
+'''
 def cleanUp(par):
 	# valids = ''.join([chr(x) for x in xrange(32,127)])
 	# modpar = ''.join([x for x in par if x in valids])
@@ -31,3 +44,4 @@ for line in lines:
 
 # print re.sub('.','1','foobar')
 # print clean('foobar')
+'''

@@ -11,7 +11,7 @@ if len(sys.argv) == 1:
 
 searchTerms = sys.argv[1:]
 query = string.lower(' '.join(searchTerms))
-maxNum = 20
+maxNum = 25
 numResults = 0
 for folder in os.listdir('Corpora'):
 	for filename in os.listdir('Corpora/%s'%folder):

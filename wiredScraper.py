@@ -29,14 +29,24 @@ def cleanUp(par):
 	modpar = re.sub('<em.*?>(.+?)</em>',r'\1',modpar)
 	modpar = re.sub('<strong.*?>(.+?)</strong>',r'\1',modpar)
 	modpar = re.sub('<div.*?>(.+?)</div>',r'\1',modpar)
-	modpar = re.sub('<iframe.+>.+?</iframe>','',modpar)
+	modpar = re.sub('<iframe.+?>.+?</iframe>','',modpar)
+	modpar = re.sub('<script.+?>.+?','',modpar)
+	modpar = re.sub('<style.+?>.+?','',modpar)
+	modpar = re.sub('.*?</style>','',modpar)
+	modpar = re.sub('<sup>.+?</sup>','',modpar)
+	modpar = re.sub('name=.+?','',modpar)
+	modpar = re.sub('<blockquote.+?>.+?</blockquote>','',modpar)
 	modpar = re.sub('<img.+?>.+?</img>','',modpar)
 	modpar = re.sub('<\!--.+?','',modpar)
 	modpar = re.sub('<param.+?','',modpar)
-	modpar = re.sub('&#8212;',' -- ',modpar) #Long dash
+	modpar = re.sub('&#8212;|&mdash;',' -- ',modpar) #Long dash
 	modpar = re.sub('&#821[67];','\'',modpar) #Apostrophe
 	modpar = re.sub('&#8220;','\"',modpar) #Open quote
 	modpar = re.sub('&#8221;','\"',modpar) #Close quote
+	modpar = re.sub('&#8230;','...',modpar) #Ellipses
+	modpar = re.sub('&#038;','&',modpar) #Close quote
+	modpar = re.sub('</p>|</blockqu','',modpar)
+
 	return ' '.join(modpar.split())
 
 def getStoryInfo(storyurl):
@@ -93,13 +103,14 @@ def main(argv):
 	if len(argv)>1: #Delete all current articles; repopulate from catalog
 		print 'Recataloging...'
 		if string.lower(argv[1]) == 'hard':
+			print 'Hard reset...'
 			for folder in os.listdir('Corpora'):
 				for filename in os.listdir('Corpora/%s'%folder):
 					os.remove('Corpora/%s/%s'%(folder,filename))
 				os.rmdir('Corpora/%s'%folder)
 		source = storedLinks
 	else:
-		source = getHomepageStoryLinks()
+		source += getHomepageStoryLinks()
 	for storyLink in source:
 		gsi = getStoryInfo(storyLink)
 		isValid = (gsi['storyTitle'] != '[Need to improve title parsing]')
@@ -112,7 +123,7 @@ def main(argv):
 		url = gsi['storyURL']
 		if url not in storedLinks:
 			newLinks.append(url)
-		title = gsi['storyTitle']
+		title = cleanUp(gsi['storyTitle'])
 		author = gsi['authorName']
 		date = gsi['storyDate']
 		time = gsi['storyTime']

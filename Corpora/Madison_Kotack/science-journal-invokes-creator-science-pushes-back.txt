@@ -6,12 +6,12 @@ March 3, 2016
 One thing you don't see a lot of in scientific journals is God. Invoking a divine cause in peer-reviewed, published work is, well, cheating. So when science Twitter's flaneurs noticed this week that an article in the open-source journal PLoS ONE published a paper whose authors credit intelligent design -- God -- for the biomechanics of the human hand, well, things got out of you-know-what.
 Because PLoS ONE is open-access, you can read the whole paper for free (no paywall, in other words, unlike articles from subscription journals like Nature). We'll save you the trouble, though -- here's an excerpt from the abstract:
 It’s pretty bad. The authors -- Ming-Jin Liu, Cai-Hua Xiong, Le Xiong, and Xiao-Lin Huang of Huazhong University in China -- allude to a Creator three times in the article. An editor, Renzhi Han, let the article through. So did peer review, it seems. And one of the author’s comments suggests it wasn’t a mistranslation issue.
-— Carl T. Bergstrom (@CT_Bergstrom) March 2, 2016</p></blockqu
-<script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script>
-.@icouzin possibly the data in the #handofgod paper were immaculately conceived? — Nicholas Christakis (@NAChristakis) March 2, 2016</p></blockqu
-<script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script>
-— Ed Yong (@edyong209) March 2, 2016</p></blockqu
-<script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script>So was it an editorial misstep, or does PLoS ONE believe real hands were designed as if by an occult hand? “It’s incorrect … and confused,” says John Huelsenbeck, an evolutionary biologist at UC Berkeley, “and it can’t be supported -- so it has no place in a scientific publication.”
+— Carl T. Bergstrom (@CT_Bergstrom) March 2, 2016
+/script>
+.@icouzin possibly the data in the #handofgod paper were immaculately conceived? — Nicholas Christakis (@NAChristakis) March 2, 2016
+/script>
+— Ed Yong (@edyong209) March 2, 2016
+/script>So was it an editorial misstep, or does PLoS ONE believe real hands were designed as if by an occult hand? “It’s incorrect … and confused,” says John Huelsenbeck, an evolutionary biologist at UC Berkeley, “and it can’t be supported -- so it has no place in a scientific publication.”
 Anyway, suffice it to say that researchers who specialize in limbs and their evolution do not agree that you have to invoke a Creator to explain said limbs. (That doesn't mean the researchers do or do not believe in a Creator. It just means they don't use one as an explanation for scientific results.)
 After a couple days of getting batted around in social media and comments sections, the journal retracted the whole paper. No editors from PLoS ONE responded to requests for comment.
 Since PLoS ONE is open-source, it's tempting to wonder if this kind of mistake calls into question the quality of all open-access scientific journals? PLoS ONE's website describes its editorial and peer-review practices, but also says that it can publish faster than old-school journals because it leaves out "subjective assessments of significance or scope to focus on technical, ethical and scientific rigor."
