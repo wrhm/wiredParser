@@ -8,7 +8,7 @@
 # TODO: figure out why cleanUp isn't being properly called
 # (The calls to re.sub work fine in tests.)
 
-import urllib, re, os, sys
+import urllib, re, os, sys, string
 
 url = 'http://www.wired.com/'
 
@@ -31,6 +31,8 @@ def cleanUp(par):
 	modpar = re.sub('<div.*?>(.+?)</div>',r'\1',modpar)
 	modpar = re.sub('<iframe.+>.+?</iframe>','',modpar)
 	modpar = re.sub('<img.+?>.+?</img>','',modpar)
+	modpar = re.sub('<\!--.+?','',modpar)
+	modpar = re.sub('<param.+?','',modpar)
 	modpar = re.sub('&#8212;',' -- ',modpar) #Long dash
 	modpar = re.sub('&#821[67];','\'',modpar) #Apostrophe
 	modpar = re.sub('&#8220;','\"',modpar) #Open quote
@@ -81,19 +83,20 @@ def getStoryInfo(storyurl):
 # storyurl = 'http://www.wired.com/2016/02/know-spoons-splash-faucets-mit-made-art/'
 # storyurl = 'http://www.wired.com/2016/03/bugatti-crafted-chiron-worlds-last-truly-great-car/'
 
-def main(recatalog=False):
+def main(argv):
 	newLinks = []
 	storedLinks = []
 	f = open('allURLs.txt','r')
 	storedLinks = [x[:-1] for x in f.readlines()]
 	f.close()
 	source = []
-	if recatalog: #Delete all current articles; repopulate from catalog
+	if len(argv)>1: #Delete all current articles; repopulate from catalog
 		print 'Recataloging...'
-		for folder in os.listdir('Corpora'):
-			for filename in os.listdir('Corpora/%s'%folder):
-				os.remove('Corpora/%s/%s'%(folder,filename))
-			os.rmdir('Corpora/%s'%folder)
+		if string.lower(argv[1]) == 'hard':
+			for folder in os.listdir('Corpora'):
+				for filename in os.listdir('Corpora/%s'%folder):
+					os.remove('Corpora/%s/%s'%(folder,filename))
+				os.rmdir('Corpora/%s'%folder)
 		source = storedLinks
 	else:
 		source = getHomepageStoryLinks()
@@ -140,4 +143,4 @@ def main(recatalog=False):
 # print cleanUp('<a href blah>foobar</a>')
 
 if __name__ == '__main__':
-	main(len(sys.argv)>1)
+	main(sys.argv)

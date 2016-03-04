@@ -7,31 +7,31 @@ Larry Roberts angles his white Mercury Grand Marquis into the empty parking lot 
 Climbing out of the Mercury, Roberts notices an uprooted mailbox leaning against the side of the Gorillas Cage and a pickup truck loaded with restaurant equipment. Up and down the street, storefronts are boarded up, empty, dark. Mounds of fine white grit called chat&mdash;leftover minerals from mining operations&mdash;loom over the town, 200 feet high. Roberts grabs his clipboard. "Let's get this over with," he says.
 The Gorillas Cage&mdash;named for Picher-Cardin High School's mascot&mdash;has been gutted. The tables and chairs are all gone. In fact, there isn't much of anything inside except for a walk-in refrigerator. "We didn't have anyone left to sell food to," co-owner Gary Cox, 69, tells Roberts as he follows him around the room. Roberts ticks a few notes on his clipboard as Cox's sister and business partner, Joyce, 75, shakes her head and tears up. They both grew up here, she says, and have never been sick. Now they feel pushed out. "It's an outrage," Joyce says. "But we can't change it, so we are moving on."
 Picher sprang up as a 20th-century boomtown&mdash;the "buckle" of the mining belt that ran through Oklahoma, Kansas, and Missouri. The earth underneath it produced most of the lead for US bullets in World Wars I and II and enough zinc to literally galvanize construction of the American suburbs. These raw materials were used to create stronger, water-resistant metal alloys, better batteries, and dietary supplements&mdash;the base materials of a modern society. Population peaked at 14,000 in 1926. When the lode ran dry in 1970, the mining companies moved out. Picher eventually became a Superfund site, and half a decade ago the state government offered residents an average of $55 per square foot to evacuate their homes. By September 2009, the police force had disbanded and the government dissolved. Picher was a dead city.
-<!-- start brightcove<object id="myExperience591020703001" class="BrightcoveExperien
+start brightcove<object id="myExperience591020703001" class="BrightcoveExperien
 
 
-<param name="bgcolor" value="#FFFFFF
+name="bgcolor" value="#FFFFFF
 
 
-<param name="width" value="660
+name="width" value="660
 
 
-<param name="height" value="423
+name="height" value="423
 
 
-<param name="playerID" value="3698508001
+name="playerID" value="3698508001
 
 
-<param name="publisherID" value="156454938
+name="publisherID" value="156454938
 
 
-<param name="isVid" value="true
+name="isVid" value="true
 
 
-<param name="dynamicStreaming" value="true
+name="dynamicStreaming" value="true
 
 
-<param name="@videoPlayer" value="591020703001
+name="@videoPlayer" value="591020703001
 
 </object><script type="text/javascript"> runMobileCompatibilityScript('myExperience591020703001', 'anId'); </script>End of Brightcove Player -->
 Except that a few people refused to leave. They call themselves chat rats, a loose and increasingly self-reliant colony armed with cell phones and Wi-Fi for communication and guns for driving off scrap-metal scavengers. It's a life bordering on squalid&mdash;on the way out of the Gorillas Cage, Roberts spots shovel marks around the base of the burned-out signpost, the beginning of an attempt to steal it. Across the street, a former auction-house parking lot has become a dumping ground for tires. On the drive back out of town, he passes the abandoned high school and notices that the arts and crafts building has burned down. A man appears to be helping himself to bookshelves from an open classroom. Roberts can't figure out why anyone would turn down the relocation money he's offering. "Most people have bettered themselves through this process," he says. "Now there are only radicals left."
